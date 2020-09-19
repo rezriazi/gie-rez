@@ -1,0 +1,54 @@
+.searchBar {
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(250, 60, 250, 0.651),
+    rgba(255, 255, 255, 0.034)
+  );
+  color: black;
+  padding: 0 15px 0 0 !important;
+}
+
+#searchInput {
+  color: rgb(9, 0, 134) !important;
+  font-family: "Bitter", serif;
+}
+
+/* label color (magnify glass, etc.) */
+
+.input-field label,
+.input-field {
+  color: rgb(23, 209, 255) !important;
+}
+
+.searchInput {
+  width: 100%;
+}
+
+/* label focus color */
+
+.input-field input[type="text"]:focus + label {
+  background: linear-gradient(to right, black, #1c92d2) !important;
+  /* color: #f20a82 !important; */
+}
+
+/* label underline focus color */
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #f20a82;
+  box-shadow: 0 1px 0 0 #f20a82;
+}
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+  color: black !important;
+}
+
+.input-field {
+  text-align: center;
+  margin: 0 !important;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}

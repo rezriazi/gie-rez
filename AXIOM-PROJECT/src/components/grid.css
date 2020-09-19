@@ -1,0 +1,28 @@
+sb-container {
+  width: 90%;
+}
+
+.flexgrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* each grid box */
+.card.white {
+  background: rgba(255, 52, 221, 0.404) !important;
+}
+
+.card {
+  width: 280px !important;
+  height: 200px !important;
+}
+
+.card-title {
+  font-size: medium !important;
+  overflow: hidden;
+}
+
+.card-action {
+  background: #6dd5fa !important;
+}
